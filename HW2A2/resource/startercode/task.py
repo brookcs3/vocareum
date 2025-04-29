@@ -1,0 +1,11 @@
+def mystery_func(a,b):
+    if a<b:
+        if a*3>=b*2:
+            print('a*3>b*2 executed!')
+            return False
+    if a>b*b:
+        print('a>b*b executed!')
+        return False
+    if a*2<b:
+        return False
+    return True
